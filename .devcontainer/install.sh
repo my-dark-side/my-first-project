@@ -1,4 +1,6 @@
 #!/bin/sh
+apt update
+apt install nload -y
 
 echo "downloading xray"
 wget -O ${PWD}/xray.zip https://github.com/XTLS/Xray-core/releases/download/v26.3.27/Xray-linux-64.zip
